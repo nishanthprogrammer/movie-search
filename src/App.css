@@ -1,0 +1,53 @@
+.main{
+  text-align:center;
+  padding:40px;
+}
+
+.main input{
+  padding:10px;
+  width:250px;
+  font-size:16px;
+  border:none;
+  border-radius:5px;
+  margin-right:10px;
+}
+
+.main button{
+  padding:10px 15px;
+  font-size:16px;
+  border:none;
+  border-radius:5px;
+  background-color:#ff4444;
+  color:white;
+  cursor:pointer;
+}
+
+.main button:hover{
+  background-color:#ff2222;
+}
+
+.container{
+  margin-top:40px;
+
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  gap:20px;
+}
+
+.moviecard{
+  background:#1e1e1e;
+  padding:15px;
+  border-radius:10px;
+  width:200px;
+  transition:transform 0.2s;
+}
+
+.moviecard:hover{
+  transform:scale(1.05);
+}
+
+.imdb-link a{
+  color:#ff4444;
+  text-decoration:none;
+}
