@@ -1,17 +1,55 @@
-# React + Vite
+# 🎬 Movie Search App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React application that allows users to search for movies and view details such as the movie poster, release year, and a link to the IMDb page.
 
-Currently, two official plugins are available:
+The application fetches movie data from the **OMDb API** and displays the results dynamically.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* 🔎 Search movies by title
+* 🎥 Display movie posters
+* 📅 Show release year
+* 🌐 Direct link to IMDb movie page
+* ⚡ Fast UI built with React and Vite
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-"# movie-search" 
+
+## 🛠️ Built With
+
+* React
+* Vite
+* JavaScript
+* CSS
+* OMDb API
+
+---
+
+## ⚙️ How It Works
+
+1. User enters a movie name in the search input.
+2. The app sends a request to the OMDb API.
+3. The API returns movie data in JSON format.
+4. React updates the UI dynamically using state.
+
+---
+
+## 📚 What I Learned
+
+* React Hooks (`useState`, `useEffect`)
+* Fetching data from APIs
+* Handling asynchronous JavaScript
+* Rendering dynamic lists in React
+* Managing environment variables
+* Deploying a React app
+
+---
+
+## 👨‍💻 Author
+
+Nishanth
+
+GitHub:
+https://github.com/nishanthprogrammer
