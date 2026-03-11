@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { useEffect } from 'react'
 import './App.css'
-const API_KEY = "247f453a"
+const API_KEY = process.env.OMDB_API_KEY;
 function App() {
   const [search,setSearch] = useState("");
   const [movies, setMovies] = useState([]);
